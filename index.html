@@ -3,9 +3,51 @@
 <head>
 <meta charset="UTF-8">
 <title>My GitHub Page</title>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+}
+header {
+    background: #003366;
+    padding: 20px;
+}
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+header ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+    font-size: 1.1em;
+}
+header ul li a:hover {
+    background: #0059b3;
+    border-radius: 5px;
+}
+</style>
 </head>
 <body>
-<h1>Hello, GitHub Pages!</h1>
+
+<header>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#projects">Projects</a></li>
+    </ul>
+</header>
+
+<h1 id="home">Hello, GitHub Pages!</h1>
 <p>This is a simple page hosted by GitHub Pages.</p>
+
 </body>
 </html>
